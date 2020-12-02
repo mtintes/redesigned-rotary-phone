@@ -1,0 +1,25 @@
+
+- name: osborne trellis
+  description: "A large cat that could be mistaken for a small tiger. He also happens to be wearing glasses"
+  health: 100
+  maxhealth: 100
+  inventory:
+    - magic_orb
+
+- name: windslow orbus
+  description: "Not a walrus so much as a man with huge teeth"
+  health: 60
+  maxhealth: 60
+  
+
+
+#   export interface character {
+#     name: string,
+#     intro: string,
+#     description: string,
+#     health: number,
+#     maxhealth: number,
+#     inventory: item[],
+#     equipment: equipment,
+#     dialog: dialog[]
+# }

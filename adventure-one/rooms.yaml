@@ -1,0 +1,36 @@
+library:
+  characters:
+    - osborne trellis
+  weapons:
+    - sword
+  items: 
+    - gold chalice
+    - health potion
+  portals:
+    window: dungeon
+
+dungeon:
+  characters:
+    - windslow orbus
+  items:
+    - wand
+  portals:
+    bookshelf door: library
+
+start: library
+
+
+
+
+#   export interface room{
+#     name: string,
+#     characters: character[],
+#     players: character[],
+#     items: item[]
+#     doors: door[]
+# }
+
+# export interface door{
+#     name: string
+#     room: string
+# }

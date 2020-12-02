@@ -1,0 +1,12 @@
+- action1:
+    transfer:
+      item: magical orb
+      count: 1
+      from: osborne trellis
+      to: player
+    next: dialog4
+
+- action2:
+    damage: 5
+    to: player
+    next: dialog2

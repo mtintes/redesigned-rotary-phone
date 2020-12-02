@@ -1,0 +1,16 @@
+weapons:
+  sword:
+    strength: 5
+  throwing_knife:
+    strength: 1
+
+items:
+  - health potion
+  - magic orb
+  - gold chalice
+  - wand
+  
+armor:
+  wood:
+    strength: 5
+

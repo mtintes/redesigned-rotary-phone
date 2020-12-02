@@ -1,0 +1,38 @@
+movement:
+  - jump
+  - crawl
+  - dance
+  - hop
+  - climb
+  - climb through
+
+take:
+  - grab
+  - steal
+  - pocket
+
+attack:
+  - slash
+  - stab
+  - throw
+
+give:
+  - hand over
+  - set in
+
+reposition:
+  - move
+  - pull
+  - push
+
+hide:
+  - crouch
+
+use:
+  - drink
+  - swallow
+  - open
+
+drop:
+  - set down
+  - put down

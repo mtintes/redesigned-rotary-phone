@@ -1,0 +1,26 @@
+- dialog1:
+  description: Intro to Osborne.
+  statement: Hello, my name is Osborne Trillis. I am a magic cat who doesn't much care for humans.
+  choices:
+    - choice: Well, good thing I'm not human then, huh?
+      next: dialog2
+    - choice: "What about nice humans?"
+      next: dialog3
+
+- dialog2:
+  description: "Good answer"
+  statement: "Yes, Of course I can see that. Here take this orb"
+  next: action1
+
+- dialog3:
+  description: bad answer to human question"
+  statement: Not even nice ones
+  choices:
+    - choice: Well, I'm not human. Cuz humans has thumbs and I don't have any thumbs.
+      next: action2
+    - choice: I am a human.
+      next: dialog4
+
+- dialog4:
+  description: good-bye
+  statement: I don't wish to talk anymore.
