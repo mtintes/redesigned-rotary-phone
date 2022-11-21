@@ -3,7 +3,7 @@
     "@types/node": "^14.14.9",
     "ajv": "^6.12.6",
     "alphabet": "^1.0.0",
-    "fastify": "^3.8.0",
+    "fastify": "^3.29.4",
     "fastify-cookie": "^4.1.0",
     "fastify-cors": "^5.0.0",
     "fastify-redis": "^4.1.0",
